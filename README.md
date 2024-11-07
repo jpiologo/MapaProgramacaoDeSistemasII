@@ -13,7 +13,7 @@ A aplicação foi desenvolvida utilizando uma arquitetura modular dentro da IDE 
 - **Main.java**: Gerencia a interface do usuário, apresenta o menu e chama os métodos da classe `ServicosCliente`.
 
 ## Funcionalidades
-### 3.1. Cadastrar Cliente
+#### 3.1. Cadastrar Cliente
 Permite ao usuário adicionar um novo cliente ao sistema. O ID do cliente é gerado automaticamente para evitar duplicações.
 
 **Passo a Passo**:
