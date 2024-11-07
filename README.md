@@ -13,7 +13,7 @@ A aplicação foi desenvolvida utilizando uma arquitetura modular dentro da IDE 
 - **Main.java**: Gerencia a interface do usuário, apresenta o menu e chama os métodos da classe `ServicosCliente`.
 
 ## Funcionalidades
-#### 3.1. Cadastrar Cliente
+#### 1. Cadastrar Cliente
 Permite ao usuário adicionar um novo cliente ao sistema. O ID do cliente é gerado automaticamente para evitar duplicações.
 
 **Passo a Passo**:
@@ -21,20 +21,20 @@ Permite ao usuário adicionar um novo cliente ao sistema. O ID do cliente é ger
 - O sistema solicita os dados do cliente.
 - O cliente é cadastrado e o sistema exibe o ID atribuído.
 
-### 3.2. Listar Clientes
+#### 2. Listar Clientes
 Permite ao usuário visualizar todos os clientes cadastrados. O código dessa funcionalidade está implementado no método `listarClientes` da classe `ServicosCliente`.
 
 **Passo a Passo**:
 - O usuário escolhe a opção de listagem.
 - O sistema exibe as informações dos clientes cadastrados com tratativa de erro.
 
-### 3.3. Atualizar Cliente
+#### 3. Atualizar Cliente
 Permite que o usuário atualize informações de um cliente específico. O sistema usa o ID para identificar o cliente, chamando o método `buscarClientePorId` para verificar sua existência. Caso exista, possibilita a edição dos dados.
 
-### 3.4. Remover Cliente
+#### 4. Remover Cliente
 Permite ao usuário remover um cliente específico, utilizando o ID como parâmetro. O código dessa funcionalidade está implementado na função `removerCliente`.
 
-### 3.5. Buscar Cliente por ID
+#### 5. Buscar Cliente por ID
 Permite ao usuário buscar e visualizar as informações de um cliente específico, utilizando o ID como parâmetro. O método `buscarClientePorId` implementa essa funcionalidade.
 
 ## Implementação Técnica
